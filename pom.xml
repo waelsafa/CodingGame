@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <!-- Vaadin project from https://start.vaadin.com/project/36019428-fade-4d00-a6ff-1880f7a0b38e -->
     <groupId>com.example.application</groupId>
-    <artifactId>flowcrmtutorial</artifactId>
+    <artifactId>CodingGame</artifactId>
     <name>Project base for Spring Boot and Vaadin Flow</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -125,6 +125,12 @@
             <artifactId>h2</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <!-- The version element is only needed for the JavaEE version -->
+            <version>6.0.4</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
